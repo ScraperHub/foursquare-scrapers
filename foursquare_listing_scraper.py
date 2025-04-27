@@ -44,7 +44,7 @@ def scrape_foursquare_listings(html_content):
 
     return data
 
-def save_data_to_json(data, filename='foursquare_data.json'):
+def save_data_to_json(data, filename='foursquare_listing_data.json'):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
     print(f"Data saved to {filename}")
