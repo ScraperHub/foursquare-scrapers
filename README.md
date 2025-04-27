@@ -74,9 +74,9 @@ The extracted data will be saved in `foursquare_listing_data.json`.
   Replace `"YOUR_CRAWLBASE_TOKEN"` in `foursquare_venue_detail_scraper.py`.
 
 - **Run the Scraper**
-  `bash
+  ```bash
   python foursquare_venue_detail_scraper.py
-  `
+  ```
   The venue details will be saved in `foursquare_venue_details.json`.
 
 ## To-Do List
